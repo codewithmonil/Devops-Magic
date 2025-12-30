@@ -52,7 +52,6 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/netflix-ka-bhai:by-githb-actions
-            ${{ secrets.DOCKERHUB_USERNAME }}/netflix-ka-bhai:by-githb-actions
       
       - name: Image digest
         run: |
