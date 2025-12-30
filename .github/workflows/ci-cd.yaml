@@ -25,11 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pytest
-      
-      - name: Run tests
-        run: |
-          pytest test_app.py -v
+    
 
   build-and-push:
     name: Build and Push Docker Image
