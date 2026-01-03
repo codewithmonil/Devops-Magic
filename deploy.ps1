@@ -19,7 +19,7 @@ Write-Host ""
 
 # Step 2: Pull latest image from Docker Hub (simulate this)
 Write-Host "[2/6] Pulling latest image from Docker Hub..." -ForegroundColor Yellow
-Write-Host "      Image: monil08/netflix-ka-bhai:by-github-actions" -ForegroundColor Gray
+Write-Host "      Image: monil08/netflix-ka-bhai:by-githb-actions" -ForegroundColor Gray
 Start-Sleep -Seconds 2
 Write-Host "      Image ready!" -ForegroundColor Green
 Write-Host ""
@@ -51,11 +51,7 @@ Write-Host "Starting port-forward to access the app..." -ForegroundColor Yellow
 Write-Host ""
 Write-Host "   Your app will be available at: http://localhost:30000" -ForegroundColor Cyan
 Write-Host "   Press Ctrl+C to stop port-forwarding and exit" -ForegroundColor Gray
-Write-Host ""
-Write-Host "Useful commands - run in another terminal:" -ForegroundColor Yellow
-Write-Host "   kubectl get pods           # View pods" -ForegroundColor Gray
-Write-Host "   kubectl logs -l app=flask-app  # View logs" -ForegroundColor Gray
-Write-Host "   kubectl get all            # View all resources" -ForegroundColor Gray
+
 Write-Host ""
 Write-Host "[6/6] Starting port-forward now..." -ForegroundColor Cyan
 Write-Host ""

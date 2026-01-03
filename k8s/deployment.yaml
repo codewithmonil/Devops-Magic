@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: monil08/netflix-ka-bhai:v1
+        image: monil08/netflix-ka-bhai:by-githb-actions
         imagePullPolicy: Always
         ports:
         - containerPort: 5000

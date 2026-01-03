@@ -1,5 +1,11 @@
 # Devops Magic
 
+
+# Let's SEE Devops Magic!
+
+
+
+
 A complete end-to-end CI/CD pipeline demonstrating modern DevOps practices with automated testing, Docker containerization, and Kubernetes deployment. Built to showcase the magic of DevOps automation from code commit to production deployment.
 
 ---
